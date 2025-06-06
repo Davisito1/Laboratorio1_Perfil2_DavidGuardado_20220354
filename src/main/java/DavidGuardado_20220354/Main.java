@@ -24,7 +24,8 @@ public class Main {
 
             switch (opc){
                 case 1:
-
+                    System.out.println("ID del producto: ");
+                    int id = sc.nextInt();
 
                     System.out.print("Nombre del producto:");
                     String nombre = sc.next();
